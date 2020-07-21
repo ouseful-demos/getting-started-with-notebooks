@@ -6,10 +6,13 @@ channels:
   - rdkit
   - openbabel
   - bjodah
+  - astropy
 
 dependencies:
   - rdkit
-  - bokeh
+  - astropy
+  - aplpy
+  - astroquery
   - openbabel
   - cartopy
   - imagemagick
@@ -21,6 +24,8 @@ dependencies:
   - pip
   - pip:
     - numpy
+    - pyhorizon
+    - bokeh
     - matplotlib
     - pandas
     - git+https://github.com/cltk/cltk.git
@@ -31,6 +36,9 @@ dependencies:
     - librosa
     - prysm
     - pybel
+    - pyephem
+    - sunpy
+    - git+https://github.com/skyfielders/python-skyfield.git
     - pypdb
     - pymatgen
     - py3Dmol
@@ -40,6 +48,7 @@ dependencies:
     - ipyvolume
     - seaborn
     - scipy
+    - git+https://github.com/poliastro/poliastro.git 
     - k3d
     - cairosvg
     - mpld3
