@@ -1,6 +1,14 @@
 name: getting-started-demo
 
+channels:
+  - conda-forge
+  - defaults
+  - rdkit
+  - openbabel
+  - bjodah
+
 dependencies:
+  - rdkit
   - numpy
   - pandas
   - matplotlib
@@ -9,13 +17,33 @@ dependencies:
   - cartopy
   - imagemagick
   - graphviz
+  - chempy
+  - iris
+  - iris-sample-data
+  - metpy
+  - pip
   - pip:
-    - cltk
+    - git+https://github.com/cltk/cltk.git
+    - Pillow
+    - LightPipes
+    - rayopt
+    - control
+    - librosa
+    - prysm
     - pybel
+    - pypdb
+    - pymatgen
     - py3Dmol
+    - chembl_webresource_client
     - pubchempy
     - music21
     - ipyvolume
+    - seaborn
+    - scipy
+    - k3d
+    - cairosvg
+    - mpld3
+    - folium
     - blockdiag
     - calysto
     - sympy
