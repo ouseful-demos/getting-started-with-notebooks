@@ -1,0 +1,25 @@
+name: getting-started-demo
+
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - bokeh
+  - openbabel
+  - cartopy
+  - imagemagick
+  - graphviz
+  - pip:
+    - cltk
+    - pybel
+    - py3Dmol
+    - pubchempy
+    - music21
+    - ipyvolume
+    - blockdiag
+    - calysto
+    - sympy
+    - librosa
+    - git+https://github.com/innovationOUtside/ipython_magic_tikz
+    - git+https://github.com/mph-/lcapy.git
+    - git+https://github.com/innovationOUtside/ipython_magic_blockdiag.git
