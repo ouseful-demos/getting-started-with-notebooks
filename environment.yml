@@ -6,7 +6,6 @@ channels:
   - rdkit
   - openbabel
   - astropy
-  - cython
 dependencies:
   - rdkit
   - astropy
@@ -16,6 +15,7 @@ dependencies:
   - cartopy
   - imagemagick
   - graphviz
+  - cython
   - pip
   - pip:
     - git+https://github.com/SciTools/iris.git
