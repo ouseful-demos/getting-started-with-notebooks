@@ -9,9 +9,6 @@ channels:
 
 dependencies:
   - rdkit
-  - numpy
-  - pandas
-  - matplotlib
   - bokeh
   - openbabel
   - cartopy
@@ -23,6 +20,9 @@ dependencies:
   - metpy
   - pip
   - pip:
+    - numpy
+    - matplotlib
+    - pandas
     - git+https://github.com/cltk/cltk.git
     - Pillow
     - LightPipes
