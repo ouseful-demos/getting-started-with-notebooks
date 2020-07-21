@@ -5,7 +5,6 @@ channels:
   - defaults
   - rdkit
   - openbabel
-  - bjodah
   - astropy
 
 dependencies:
@@ -17,12 +16,12 @@ dependencies:
   - cartopy
   - imagemagick
   - graphviz
-  - chempy
-  - iris
-  - iris-sample-data
-  - metpy
   - pip
   - pip:
+    - git+https://github.com/SciTools/iris.git
+    - git+https://github.com/SciTools/iris-sample-data.git
+    - chempy
+    - metpy
     - nbgitpuller
     - numpy
     - pyhorizon
