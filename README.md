@@ -1,6 +1,6 @@
 # getting-started-with-notebooks
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ouseful-demos/getting-started-with-notebooks/master)
+*Binder link to follow... the `fullbinder` branch has a Binder config that will try to install everything. I'm pondering smaller topic specific builds that work for particular topic notebooks...*
 
 These notebooks were originally produced for an in-reach project on Jupyter notebooks, hosted on Azure notebooks. A lot of things may have rotted since I last looked at them and as required packages have moved on...
 
