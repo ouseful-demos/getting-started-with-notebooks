@@ -6,7 +6,7 @@ channels:
   - rdkit
   - openbabel
   - astropy
-
+  - cython
 dependencies:
   - rdkit
   - astropy
