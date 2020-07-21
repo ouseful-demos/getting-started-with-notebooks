@@ -23,6 +23,7 @@ dependencies:
   - metpy
   - pip
   - pip:
+    - nbgitpuller
     - numpy
     - pyhorizon
     - bokeh
