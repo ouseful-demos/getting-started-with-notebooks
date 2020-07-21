@@ -18,8 +18,8 @@ dependencies:
   - cython
   - pip
   - pip:
-    - git+https://github.com/SciTools/iris.git
-    - git+https://github.com/SciTools/iris-sample-data.git
+    #- git+https://github.com/SciTools/iris.git
+    #- git+https://github.com/SciTools/iris-sample-data.git
     - chempy
     - metpy
     - nbgitpuller
